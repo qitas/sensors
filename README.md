@@ -20,7 +20,15 @@
 
 常用的光强度传感器
 
+- ADXL345
+
+常用的加速度传感器
+
+- BMP180
+
+常用的气压传感器
 
 ---
+
 ## 为锻造最美之器
 [![sites](qitas/qitas.png)](http://www.qitas.cn)
