@@ -1,56 +1,30 @@
-﻿# [sensor](https://github.com/Qitas/sensor) 
+﻿# [sensors](https://github.com/Qitas/sensors) 
 
-### [概述](https://github.com/Qitas/sensor/wiki) 
+#### [归属驱动工程](https://github.com/Qitas/drivers)
+
+### [项目概述](https://github.com/Qitas/sensors/wiki) 
 
 各种嵌入式传感器。包括数据手册和驱动代码
 
----
+### 环境感知
 
-## 组成
-#### [8051](./8051) 
+* 温湿度
+    * [DHT11](DHT11/) 
+    * [DHT22](DHT22/) 
+    * [SHT20](SHT20/) 
+    * [DS18B](DS18B/) 
+    * [SI7021](SI7021/) 
 
-8051传感器驱动
+* [BH1750](BH1750/) 
+* [BMP180](BMP180/) 
+* [BME280](BME280/) 
+* [BME680](BME680/) 
 
-#### [SI7021](./SI7021/SI7021.md) 
+### 状态感知
 
-高精度温湿度传感器
+* [SR04](SR04/) 
+* [ADXL345](ADXL345/) 
 
-
-#### [DHT11](./DHT11/DHT11.md) 
-
-低成本的温湿度传感器
-
-
-#### [BH1750](./BH1750/BH1750.md) 
-
-常用的光强度传感器
-
-
-#### [ADXL345](./ADXL345/ADXL345.md) 
-
-常用的加速度传感器
-
-
-#### [BMP180](./BMP180/BMP180.md) 
-
-常用的气压传感器
-
-
-#### [BME280](./BME280/BME280.md) 
-
-BME280是一款集成温度、湿度、气压，三位一体的环境传感器。BME280模块，设备地址默认为0x77，使用SPI的通信。
-
-
-#### [BME680](./BME680/BME680.md) 
-
-全球首款集成气体、气压、湿度和温度传感功能的环境传感器，是一颗真正的SiP器件，带金属盖的8引脚LGA封装（3.0mm x 3.0mm x 0.95mm）中集成了温度、湿度、气压和气体传感功能，其内部共有两颗MEMS芯片和一颗ASIC芯片
-
-博世BME680的气压测量精度为± 12 Pa，BME680还能测量相对湿度和环境温度，偏置温度系数仅为1.5 Pa/K
-
-
-
----
-
-## 锻造最美之器
 
 [![sites](qitas/qitas.png)](http://www.qitas.cn)
+## 锻造最美之器
