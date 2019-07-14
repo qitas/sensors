@@ -23,8 +23,8 @@
     * [MPU](motion/axis/MPU/) 
     * [LIS3DH](motion/axis/LIS3DH/) 
     * [ADXL345](motion/axis/ADXL345/) 
-* [距离&位置](motion/station/) 
-    * [SR04](motion/station/SR04/) 
+* [距离&位置](motion/aim/) 
+    * [SR04](motion/aim/SR04/) 
 
 
 [![sites](qitas/qitas.png)](http://www.qitas.cn)
