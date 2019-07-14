@@ -1,28 +1,31 @@
 ﻿# [传感器工程](https://github.com/Qitas/sensors) 
 
-### [归属驱动](https://github.com/Qitas/drivers)
+## [归属驱动](https://github.com/Qitas/drivers)
 
-### [项目概述](https://github.com/Qitas/sensors/wiki) 
+### [环境感知](environ/) 
 
-### 环境感知
+* [温湿度](environ/HT/) 
+    * [DHT11](environ/HT/DHT11/) 
+    * [DHT22](environ/HT/DHT22/) 
+    * [SHT20](environ/HT/SHT20/) 
+    * [DS18B](environ/HT/DS18B/) 
+    * [SI7021](environ/HT/SI7021/) 
+* [光感知](environ/field/) 
+    * [BH1750](environ/field/BH1750/) 
+* [物质量](environ/matter/) 
+    * [BMP180](environ/matter/BMP180/) 
+    * [BME280](environ/matter/BME280/) 
+    * [BME680](environ/matter/BME680/) 
 
-* [温湿度](HT/) 
-    * [DHT11](DHT11/) 
-    * [DHT22](DHT22/) 
-    * [SHT20](SHT20/) 
-    * [DS18B](DS18B/) 
-    * [SI7021](SI7021/) 
+### [运动感知](motion/) 
 
-* [BH1750](BH1750/) 
-* [BMP180](BMP180/) 
-* [BME280](BME280/) 
-* [BME680](BME680/) 
+* [轴运动](motion/axis/) 
+    * [MPU](motion/axis/MPU/) 
+    * [LIS3DH](motion/axis/LIS3DH/) 
+    * [ADXL345](motion/axis/ADXL345/) 
+* [距离&位置](motion/station/) 
+    * [SR04](motion/station/SR04/) 
 
-### 状态感知
-
-* [MPU](MPU/) 
-* [SR04](SR04/) 
-* [ADXL345](ADXL345/) 
 
 [![sites](qitas/qitas.png)](http://www.qitas.cn)
 ## 锻造最美之器
