@@ -1,4 +1,5 @@
 ﻿# [ADXL345](https://github.com/Qitas/sensors) 
+### 归属 ：[运动感知](https://github.com/Qitas/sensors)
 
 ADXL345是一款小而薄的低功耗3轴加速度计，分辨率高（13位），测量范围达±16g。数字输出数据为16位二进制补码格式，可通过SPI（3线或4线）或I2C数字接口访问。
 
@@ -17,7 +18,7 @@ ADXL345采用3 mm × 5 mm × 1 mm、14引脚小型超薄塑料封装。
 
 * [HAL](HAL/)
 * [REG](REG/)
-* [Pi](Pi/)
+* [Pi](Pi/) 应用
 
 ### 参考工程
 
