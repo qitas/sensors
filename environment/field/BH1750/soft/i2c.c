@@ -2,11 +2,11 @@
 #include "i2c.h"
 
 
-#define I2C_SCL_L   	     PA_ODR &= 0XFD  				
-#define I2C_SCL_H	     PA_ODR |= 0X02 	
-#define I2C_SDA_L   	     PA_ODR &= 0XFB  					
-#define I2C_SDA_H	     PA_ODR |= 0X04 	
-#define  SDA_I 		     (0X04 & PA_IDR)	 
+#define I2C_SCL_L  		PA_ODR &= 0XFD  				
+#define I2C_SCL_H		PA_ODR |= 0X02 	
+#define I2C_SDA_L   	PA_ODR &= 0XFB  					
+#define I2C_SDA_H		PA_ODR |= 0X04 	
+#define  SDA_I 		 	(0X04 & PA_IDR)	 
 
 
 void i2c_Port_Init(void)
@@ -14,7 +14,7 @@ void i2c_Port_Init(void)
 	PA_CR1|=0X04;
 	PA_CR2|=0X06;
 	PA_ODR|=0X06;
-        PA_DDR|=0X06;
+	PA_DDR|=0X06;
 //	I2C_SDA_H;
 //	I2C_SCL_H;
 }
@@ -27,7 +27,7 @@ void SDA_OUT(void)
 
 void SDA_IN(void)
 {	
-        PA_CR2 &=0XFB;	
+	PA_CR2 &=0XFB;	
 	PA_CR1 |=0X04;
 	PA_DDR &=0XFB;
 }
@@ -106,7 +106,7 @@ void I2C_Send_Byte(u8 txd)
     for(t=8;t>0;t--)
     {          
         if(txd>=0x80) I2C_SDA_H;
-	else  I2C_SDA_L;
+		else  I2C_SDA_L;
         txd<<=1; 		  
 		Delay_us(2);
 		I2C_SCL_H;
@@ -120,7 +120,7 @@ u8 I2C_Read_Byte(unsigned char ack)
 {
 	unsigned char i,receive=0;
 	SDA_IN();
-    	for(i=0;i<8;i++ )
+	for(i=0;i<8;i++ )
 	{
 	      I2C_SCL_L; 
 	      Delay_us(2);

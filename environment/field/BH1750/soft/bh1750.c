@@ -28,7 +28,7 @@ void Start_BH1750(void)
 {
 	Cmd_Write_BH1750(BH1750_ON);	 //power on
 	Cmd_Write_BH1750(BH1750_RSET);	//clear
-	Cmd_Write_BH1750(BH1750_ONE);  //一次H分辨率模式，至少120ms，之后自动断电模式  
+	Cmd_Write_BH1750(BH1750_ONE);  
 }
 void Read_BH1750(void)
 { 
@@ -45,8 +45,8 @@ void Read_BH1750(void)
 }
 u16 Convert_BH1750(void)
 {
-        u16 result=0;
-        Read_BH1750();
+	u16 result=0;
+	Read_BH1750();
 	//EEPROM_B(LX_ADDR,BUF[0]);
 	//EEPROM_B(LX_ADDR+1,BUF[0]);
 	UASRT_SEND(LX_BUF[0]);

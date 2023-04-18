@@ -1,8 +1,6 @@
 #ifndef __BH1750_H__
 #define __BH1750_H__
 
-#include "map.h"
-
 #define BH1750_Addr 0x46
 #define BH1750_ON   0x01
 #define BH1750_CON  0x10
